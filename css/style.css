@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.box {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 15px 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.options {
+  margin-top: 10px;
+  justify-items: center;
+}
+
+ .inner-options{
+  display: flex;
+  justify-content:space-between;
+
+  width: 50%;
+}
+
+.unit{
+  display: flex;
+  justify-content: space-between;
+}
+
+.unit-label{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+ .off{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 80px;
+   height: 40px;
+   background-color: rgb(240, 111, 132);
+   color: white;
+}
+
+
+.option {
+  margin: 10px 0;
+}
+
+
+
+.option label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.box.expanded {
+  background: #f0f8ff;
+  padding: 30px;
+}
+
+.box.expanded .options {
+  display: block;
+}
+
+.free-delivery{
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.free-delivery .free{
+  color: rgb(240, 111, 132);
+  font-weight:bold
+}
+.add-to-cart{
+   width: 600px;
+   padding: 20px 0;
+   background-color: rgb(240, 111, 132);
+   border: none;
+   font-size: 20px;
+   color: white;
+}
+
+.footer{
+  width: 600px;
+   display: flex;
+   justify-content: flex-end;
+   font-style: italic;
+   color: gray;
+}
